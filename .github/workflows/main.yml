@@ -28,7 +28,6 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: echo "reify.me">dist/CNAME
-    - run: cp -r resources dist/resources
       
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
