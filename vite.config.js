@@ -3,6 +3,7 @@ import {defineConfig} from 'vite'
 
 export default defineConfig({
 	build: {
+		publicDir: resolve(__dirname,'public'),
 		rollupOptions: {
 		input: {
 			main: resolve(__dirname,'index.html'),

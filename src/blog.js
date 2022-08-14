@@ -1,4 +1,4 @@
-import {content} from '../resources/content.js'
+import {content} from '../public/content.js'
 import {marked} from "marked";
 
 let contentArea = document.getElementById("contentarea")
