@@ -10,7 +10,7 @@ npm run build
 cd dist
 
 # if you are deploying to a custom domaster
-# echo 'www.example.com' > CNAME
+echo 'www.reify.com' > CNAME
 
 git init
 git checkout -b master
