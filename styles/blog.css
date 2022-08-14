@@ -1,0 +1,83 @@
+#app-container{
+    color: #222222;
+    background: whitesmoke;
+}
+
+.navelem>a{
+    color: #222222;
+}
+
+#contentarea{
+    width: 60%;
+    margin-left:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#contentarea::-webkit-scrollbar{
+    background-color: whitesmoke;
+}
+#contentarea::-webkit-scrollbar-thumb{
+    background-color: #ff6584;
+}
+
+.post {
+    border: 2px solid black;
+    border-left: 3px solid #666666;
+    padding: 2rem;
+    font-family: "Open Sans",sans-serif;
+    color: #ececec;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-align: center;
+    color: #222222;
+}
+
+.content{
+    color: #222222;
+    padding: 2em;
+    text-align: justify;
+    font-family: 'Slabo 27px', sans-serif;
+}
+
+img{
+    display: block;
+    margin: 2rem;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
+
+.tags{
+    font-size: .8rem;
+    height: 1.5rem;
+    text-align: right;
+    text-justify: center;
+    padding: .8rem 1rem .2rem .2rem;
+    background-color: #ff6584;
+}
