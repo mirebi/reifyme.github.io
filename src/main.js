@@ -68,7 +68,7 @@ const BGRender = () => {
     const mat = new PointsMaterial({
         size: 0.03,
         //map: loader.load("https://raw.githubusercontent.com/Kuntal-Das/textures/main/sp2.png"),
-        map: loader.load("../resources/texture.png"),
+        map: loader.load("/resources/texture.png"),
         transparent: true,
         color: 0xc0c0c0
     })
