@@ -28,6 +28,7 @@ jobs:
       # Runs a single command using the runners
       - name: Run the vite build script
         run: | 
-                chmod +x ./reifyme/build.sh
-                ./reifyme/build.sh
+                cd reifyme.github.io
+                chmod +x ./build.sh
+                ./build.sh
         shell: bash
