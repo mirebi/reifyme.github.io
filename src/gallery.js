@@ -21,7 +21,7 @@ let createDom = (images) => {
         const image = document.createElement("img")
         const info = document.createElement("dom")
         info.className="info"
-        image.src=images[i].src.medium
+        image.src=images[i].src.large
         info.innerHTML=`<p>${images[i].photographer}</p>`
         holder.appendChild(image)
         holder.appendChild(info)
